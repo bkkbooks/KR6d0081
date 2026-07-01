@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR6d0081/X/v1
+canonical_location: https://kanripo.org/bkk/KR6d0081/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 法華經綸貫
+  identifiers:
+    krp: KR6d0081
+    cbeta: X32n0615
+    cbeta_old_id: X32n0615
+    authorityid: CA0000855
+    json_key: X0615
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X32/X32n0615.xml
+    old_id: X32n0615
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0081_000-X.yaml, hash: 'sha256:3aa8ea13e1e98e48e06861c6ef4003802f509a4aa9473a73b75a2e4b14372f52'}
+  - {seq: 1, filename: KR6d0081_001-X.yaml, hash: 'sha256:2e1b8d07823a1b3b93a47f96b61a9b993bdd4fe6544a88e3eb57803c80b653e4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6d0081_000-X.markers.yaml, hash: 'sha256:a275eb01d6d572c1d55fae4c8bcc336c22c0a0126dfa981e0edb3a92951c94bc'}
+  - {seq: 1, role: markers, filename: assets/KR6d0081_001-X.markers.yaml, hash: 'sha256:34a1e5c25ea778c03aac0252b788b2f8b9aa40fb3ba4304de401e90b1314bf97'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6d0081_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 妙法蓮華經綸貫
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0081_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 9229
+  label: 妙法蓮華經綸貫
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0081_X_001-mulu-1
+    span:
+    - body
+    - 9077
+    - 9077
+  label: No. 615-A 後序
+  type: mulu
+  level: 1
+hash: sha256:88d8c001040aff1b46b7539976440edcdf6c4558267f527db711cf04e6973fa9
