@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6d0081_000.yaml, hash: 'sha256:3aa8ea13e1e98e48e06861c6ef4003802f509a4aa9473a73b75a2e4b14372f52'}
-  - {seq: 1, filename: KR6d0081_001.yaml, hash: 'sha256:1123e08d3ec8a193541c24879da96b4a8078be824bd01ce8907938f01d913730'}
+  - {seq: 1, filename: KR6d0081_001.yaml, hash: 'sha256:2e1b8d07823a1b3b93a47f96b61a9b993bdd4fe6544a88e3eb57803c80b653e4'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6d0081_001.markers.yaml, hash: 'sha256:f57001468c227550655037bff34eaf343150bee76341db7a6f447eafea38caef'}
+  - {seq: 0, role: markers, filename: assets/KR6d0081_000.markers.yaml, hash: 'sha256:1d8ac864b04eb061c77e09ae11c3e676ceb148b7e04b2b769db562cd1422e619'}
+  - {seq: 1, role: markers, filename: assets/KR6d0081_001.markers.yaml, hash: 'sha256:bc9c7f0fa3637824ba639c4278f99f7c7d6319b0811a9cf3dff037a8ebf218d3'}
 table_of_contents:
 - ref:
     seq: 0
@@ -56,7 +57,4 @@ table_of_contents:
   label: No. 615-A 後序
   type: mulu
   level: 1
-hash: sha256:25cf80532cca4642aa0b1ec623e2c6bc54f36d14c1744da5262138353803a8ef
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:20e5f422e8ced8831587e4eef5010424f2be6b9dde5e68129452f2c0203b89ca
